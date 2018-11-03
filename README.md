@@ -1,6 +1,7 @@
 [![Build Status](https://travis-ci.org/Zethson/MHCBoost.svg?branch=master)](https://travis-ci.org/Zethson/MHCBoost)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ed6807a949394ce2b425368dc5d33682)](https://app.codacy.com/app/lukas.heumos/MHCBoost?utm_source=github.com&utm_medium=referral&utm_content=Zethson/MHCBoost&utm_campaign=Badge_Grade_Dashboard)
 [![codecov](https://codecov.io/gh/Zethson/MHCBoost/branch/master/graph/badge.svg)](https://codecov.io/gh/Zethson/MHCBoost)
-[![BCH compliance](https://bettercodehub.com/edge/badge/MHCBoost?branch=development)](https://bettercodehub.com/)
+[![BCH compliance](https://bettercodehub.com/edge/badge/Zethson/MHCBoost?branch=master)](https://bettercodehub.com/)
 
 # MHCBoost
 Gradient boosted trees based predictor for MHC Class I epitope binding prediction. MHCBoost is also part of BERT, a very powerful deimmunization workflow.

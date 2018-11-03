@@ -1,6 +1,7 @@
-[![Build Status](https://travis-ci.org/Zethson/MHC-1-Binding-Predictor-iGEM2018-Tuebingen.svg?branch=master)](https://travis-ci.org/Zethson/MHC-1-Binding-Predictor-iGEM2018-Tuebingen)
-[![codecov](https://codecov.io/gh/Zethson/MHC-1-Binding-Predictor-iGEM2018-Tuebingen/branch/master/graph/badge.svg)](https://codecov.io/gh/Zethson/MHC-1-Binding-Predictor-iGEM2018-Tuebingen)
-[![BCH compliance](https://bettercodehub.com/edge/badge/Zethson/MHC-1-Binding-Predictor-iGEM2018-Tuebingen?branch=development)](https://bettercodehub.com/)
+[![Build Status](https://travis-ci.org/Zethson/MHCBoost.svg?branch=master)](https://travis-ci.org/Zethson/MHCBoost)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ed6807a949394ce2b425368dc5d33682)](https://app.codacy.com/app/lukas.heumos/MHCBoost?utm_source=github.com&utm_medium=referral&utm_content=Zethson/MHCBoost&utm_campaign=Badge_Grade_Dashboard)
+[![codecov](https://codecov.io/gh/Zethson/MHCBoost/branch/master/graph/badge.svg)](https://codecov.io/gh/Zethson/MHCBoost)
+[![BCH compliance](https://bettercodehub.com/edge/badge/Zethson/MHCBoost?branch=master)](https://bettercodehub.com/)
 
 # MHCBoost
 Gradient boosted trees based predictor for MHC Class I epitope binding prediction. MHCBoost is also part of BERT, a very powerful deimmunization workflow.
@@ -13,19 +14,19 @@ Support with 3.6 or lower is experimental! If you do get any errors about utf-8 
 
 Please also make sure that you're also installing MHCBoost using python 3.7 in a new virtual environment! Anaconda may help you with this. If you do get any errors about missing modules you're likely not installing this tool correctly. We tested the release thoroughly - it works perfectly fine!
 
-If you're still having trouble with the setup, please write an e-mail to igem@ifib.uni-tuebingen.de  .
+If you're still having trouble with the setup, please write an e-mail to lukas.heumos@gmail.com  .
 We're happy to help!
 
 
-1. <code>git clone https://github.com/igemsoftware2018/Team_Tuebingen_MHCBoost</code>
+1. <code>git clone https://github.com/Zethson/MHCBoost</code>
 2. <code>python setup.py install</code>
-3. <code>mhc-1</code>
+3. <code>mhcboost</code>
 
 Usage
 =====
 ## The CLI - Command Line Interface
 ```bash
-> mhc-1
+> mhcboost
 -p, --dataset_to_predict_path             <arg> file to perform prediction on OR peptide sequence
 -o, --predicted_dataset_path              <arg> filepath to save the predicted output file to
 -a, --allele                              <arg> allele to perform prediction on
@@ -39,11 +40,11 @@ Examples
 =====
 Simply provide the answers to the questions asked by our tool.
 ```bash
-> mhc-1 
+> mhcboost 
 ```
 Alternatively, provide input parameters when starting the tool.
 ```bash
-> mhc-1 -p examples/example_input.txt -o /home/mypc/Desktop/output.txt -a A*02:01 -l 9
+> mhcboost -p examples/example_input.txt -o /home/mypc/Desktop/output.txt -a A*02:01 -l 9
 ```
 Supported Alleles
 =====

@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/Zethson/MHC-1-Binding-Predictor-iGEM2018-Tuebingen.svg?branch=master)](https://travis-ci.org/Zethson/MHC-1-Binding-Predictor-iGEM2018-Tuebingen)
-[![codecov](https://codecov.io/gh/Zethson/MHC-1-Binding-Predictor-iGEM2018-Tuebingen/branch/master/graph/badge.svg)](https://codecov.io/gh/Zethson/MHC-1-Binding-Predictor-iGEM2018-Tuebingen)
-[![BCH compliance](https://bettercodehub.com/edge/badge/Zethson/MHC-1-Binding-Predictor-iGEM2018-Tuebingen?branch=development)](https://bettercodehub.com/)
+[![Build Status](https://travis-ci.org/Zethson/MHCBoost.svg?branch=master)](https://travis-ci.org/Zethson/MHCBoost)
+[![codecov](https://codecov.io/gh/Zethson/MHCBoost/branch/master/graph/badge.svg)](https://codecov.io/gh/Zethson/MHCBoost)
+[![BCH compliance](https://bettercodehub.com/edge/badge/MHCBoost?branch=development)](https://bettercodehub.com/)
 
 # MHCBoost
 Gradient boosted trees based predictor for MHC Class I epitope binding prediction. MHCBoost is also part of BERT, a very powerful deimmunization workflow.

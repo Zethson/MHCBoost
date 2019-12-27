@@ -9,14 +9,7 @@ Gradient boosted trees based predictor for MHC Class I epitope binding predictio
 
 How to install
 =====
-Python 3.7 is a <b>requirement</b>!
-Support with 3.6 or lower is experimental! If you do get any errors about utf-8 you're likely not running MHCBoost with python 3.7.
-
-Please also make sure that you're also installing MHCBoost using python 3.7 in a new virtual environment! Anaconda may help you with this. If you do get any errors about missing modules you're likely not installing this tool correctly. We tested the release thoroughly - it works perfectly fine!
-
-If you're still having trouble with the setup, please write an e-mail to lukas.heumos@gmail.com  .
-We're happy to help!
-
+Python 3.7+ is a <b>requirement</b>!
 
 1. <code>git clone https://github.com/Zethson/MHCBoost</code>
 2. <code>python setup.py install</code>
